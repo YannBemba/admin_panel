@@ -29,7 +29,7 @@ class MenuController extends GetxController {
       case ClientsPageRoute:
         return _customIcon(Icons.people_alt_outlined, itemName);
       case AuthenticationPageRoute:
-        return _customIcon(Icons.trending_up, itemName);
+        return _customIcon(Icons.exit_to_app, itemName);
       default:
         return _customIcon(Icons.exit_to_app, itemName);
     }
